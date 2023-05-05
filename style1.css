@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins&family=Ubuntu:wght@300;400;500&display=swap');
+
+body {
+	font-family: 'Ubuntu', sans-serif !important;
+	font-weight: 300 !important;
+	background-image: url("Twoo.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+main {
+	width: 100%;
+	min-height: 100vh;
+}
+a {
+	text-decoration: none !important;
+}
+body .bg-success {
+    background-color: #9cca64!important;
+}
+.profile img {
+    width: 230px;
+    height: 200px;
+    object-fit: cover;
+}
+.profile h3 {
+	font-size: 21px;
+	font-weight: 500;
+	margin: 10px 0px 6px 0px;
+}
+
+.profile p {
+  font-size: 12px;
+  font-family: Noto Sans;
+  margin: 10px 19px 20px 19px;
+}
+
+.kotak {
+  border-radius: 10px;
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kotak i {
+  font-size: 20px;
+}
+.badge {
+    font-size: 11px!important;
+    font-family: Poppins;
+    background-color: #9ACD32;
+    margin: 0px 8px 1px 0px;
+}
+.badge:hover {
+  background-color: #2E8B57;
+}
+
+.kotak p {
+  font-family: Poppins;
+  font-size: 14px;
+	font-weight: 600;
+	margin: 0px 0px 0px 4px!important;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Poppins;
+  font-size: 11px;
+  margin: 20px 0px 50px 0px
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+main {	
+	max-width: 420px;
+}
+
+}
